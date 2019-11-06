@@ -28,7 +28,11 @@ $('.windows').on('mouseleave', function () { //鼠标离开再次初始化闹钟
     timerId = setTimer()
 })
 
-//工具函数
+
+
+
+//----------------------工具函数----------------------------
+
 function activeButton($button) { //激活button，即三个div按钮
     $button
         .addClass('active')
